@@ -6,20 +6,25 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center p-8 md:p-16 lg:p-24 dark:bg-black dark:text-white">
       <section
         id="home-introduction"
-        className="w-full max-w-4xl flex flex-col items-center md:flex-row"
+        className="w-full max-w-4xl flex flex-col md:items-center md:flex-row mb-5"
       >
-        <div id="home-introduction-text" className="flex-1 md:mr-8">
+        <div
+          id="home-introduction-text"
+          className="flex flex-1 flex-col items-stretch"
+        >
           <p className="md:text-xl text-lg">hi, my name is</p>
           <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl mt-1 mb-4">
             justin yum.
           </h1>
           <p className="md:text-xl text-lg">nice to meet you 👋</p>
-          <p className="dark:text-gray-300 my-8">
-            I&apos;m a full-stack web developer based in San Diego, CA.
+          <p className="dark:text-gray-300 my-8 font-semibold">
+            💻 Software Engineer
             <br />
-            Recently graduated in May 2023 with a B.S. in Computer Science.
+            📍 San Diego, CA
             <br />
-            Actively searching for a full-time SWE position.
+            🎓 Graduated in May 2023, B.S. in Computer Science
+            <br />
+            🔎 Actively searching for a full-time SWE position
           </p>
           <div
             id="home-introduction-links"
@@ -47,7 +52,7 @@ export default function Home() {
         </div>
         <div
           id="home-introduction-profile-picture"
-          className="mt-10 md:mt-0 shrink-0"
+          className="mt-10 md:mt-0 self-center md:ml-8"
         >
           <Image
             src="/profile-picture.jpeg"
@@ -57,6 +62,67 @@ export default function Home() {
             height={300}
           />
         </div>
+      </section>
+
+      <section
+        id="home-about-me"
+        className="w-full max-w-4xl flex flex-col my-5"
+      >
+        <h2 className="text-3xl font-semibold self-start">about me.</h2>
+        <br />
+        <p className="dark:text-gray-200">
+          Back in 2014, I was first exposed to coding when I took AP Computer
+          Science in my sophomore year at high school. Science. But, for me, my
+          coding journey truly started when I self-taught myself web development
+          and created my{' '}
+          <Link
+            href="https://justinyum.netlify.app/"
+            className="font-semibold hover:underline"
+          >
+            first website portfolio
+          </Link>
+          .
+          <br />
+          <br />
+          Since then, I interned for three reputable companies in San Diego:{' '}
+          <Link
+            href="https://www.playstation.com/"
+            className="font-semibold hover:underline"
+          >
+            PlayStation
+          </Link>
+          ,{' '}
+          <Link
+            href="https://www.dexcom.com/"
+            className="font-semibold hover:underline"
+          >
+            Dexcom
+          </Link>
+          , and{' '}
+          <Link
+            href="https://www.asml.com/"
+            className="font-semibold hover:underline"
+          >
+            ASML
+          </Link>
+          . In these internships, I{' '}
+          <span className="italic">
+            maintained code for a RESTful API service
+          </span>
+          ,{' '}
+          <span className="italic">
+            designed & developed the frontend for an OAuth admin client
+          </span>
+          , and{' '}
+          <span className="italic">
+            automated a data pipeline to streamline analysis.
+          </span>
+          .
+          <br />
+          <br />
+          When I&apos;m not coding, I&apos;m either playing guitar 🎸, producing
+          beats on Ableton Live 🎵 or playing board games with friends 🎲.
+        </p>
       </section>
     </main>
   );
