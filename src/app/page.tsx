@@ -22,7 +22,14 @@ export default function Home() {
             <br />
             📍 San Diego, CA
             <br />
-            🎓 Graduated in May 2023, B.S. in Computer Science
+            🎓 Graduated from{' '}
+            <Link
+              href="https://www.csusm.edu/index.html"
+              className="hover:underline"
+            >
+              CSUSM
+            </Link>{' '}
+            in May 2023, B.S. in Computer Science
             <br />
             🔎 Actively searching for a full-time SWE position
           </p>
