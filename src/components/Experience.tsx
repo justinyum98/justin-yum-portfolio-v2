@@ -10,7 +10,7 @@ export type ExperienceProps = {
 
 export default function Experience(props: ExperienceProps) {
   return (
-    <div className="w-full flex flex-col md:flex-row my-2 transition ease-in dark:hover:bg-slate-700 p-5 rounded">
+    <div className="w-full flex flex-col md:flex-row my-2 transition ease-in hover:bg-gray-200 dark:hover:bg-gray-700 p-5 rounded">
       <div className="md:w-1/4">
         <p className="uppercase dark:text-gray-200 font-medium">
           {props.startDate} - {props.endDate}
@@ -25,7 +25,7 @@ export default function Experience(props: ExperienceProps) {
           {props.skills.map((skill, index) => (
             <p
               key={index}
-              className="rounded-full text-sm mt-2 font-medium dark:bg-slate-200 dark:text-gray-700 px-2 py-1 mr-2"
+              className="rounded-full text-sm mt-2 font-medium bg-gray-700 text-gray-100 dark:bg-gray-200 dark:text-gray-700 px-3 py-1 mr-2"
             >
               {skill}
             </p>
