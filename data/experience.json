@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Software Engineering Co-op",
+    "company": "ASML",
+    "location": "San Diego, CA",
+    "startDate": "June",
+    "endDate": "Dec 2021",
+    "description": "Automated data pipeline in Python that queried Oracle databases, manipulated log data with pandas, and visualized data trends in a dashboard for stakeholders. Increased yearly productivity by 98% across multiple teams. Led the provisioning of a Linux-based virtual machine to execute the Python scripts on a set schedule.",
+    "skills": ["Python", "pandas", "SQL", "Windows", "Git"]
+  },
+  {
+    "title": "Software Development Intern",
+    "company": "Dexcom",
+    "location": "San Diego, CA",
+    "startDate": "June",
+    "endDate": "Sept 2018",
+    "description": "Developed an OAuth admin portal using Angular that interacted with existing internal authentication service to manage creating clients and distributing access tokens. Upgraded framework from AngularJS to Angular 6 and optimized asynchronous data retrieval and rendering, resulting in a 66% performance increase when compared to the legacy admin portal.",
+    "skills": [
+      "Angular",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "REST API",
+      "Linux"
+    ]
+  },
+  {
+    "title": "Software Engineering Intern",
+    "company": "PlayStation",
+    "location": "San Diego, CA",
+    "startDate": "June",
+    "endDate": "Sept 2017",
+    "description": "Implemented feature changes in Java and maintained test suites (unit, integration, end-to-end) for customer-facing authentication service serving 70 million monthly active users. Collaborated closely in cross-functional team to deliver new feature that was used by over 100,000 end users during its release month. Reduced team's implementation timeline by 40% by updating outdated documentation, enabling the team to work more efficiently and effectively in delivering project outcomes on-time.",
+    "skills": ["Java", "JUnit", "Spring Boot", "REST API", "Linux", "Git"]
+  }
+]

@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import ExperienceContainer from '@/components/ExperienceContainer';
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-8 md:p-16 lg:p-24 dark:bg-black dark:text-white">
@@ -75,7 +77,7 @@ export default function Home() {
         id="home-about-me"
         className="w-full max-w-4xl flex flex-col my-5"
       >
-        <h2 className="text-3xl font-semibold self-start">about me.</h2>
+        <h2 className="text-3xl font-semibold self-start">about me. 🧑🏻‍💻</h2>
         <br />
         <p className="dark:text-gray-200">
           Back in 2014, I was first exposed to coding when I took AP Computer
@@ -127,9 +129,18 @@ export default function Home() {
           .
           <br />
           <br />
-          When I&apos;m not coding, I&apos;m either playing guitar 🎸, producing
-          beats on Ableton Live 🎵 or playing board games with friends 🎲.
+          In my free time, I&apos;m either playing guitar 🎸, producing beats on
+          Ableton Live 🎵 or playing board games 🎲.
         </p>
+      </section>
+
+      <section
+        id="home-experience"
+        className="w-full max-w-4xl flex flex-col my-5"
+      >
+        <h2 className="text-3xl font-semibold self-start">experience. 💼</h2>
+        <br />
+        <ExperienceContainer />
       </section>
     </main>
   );
