@@ -2,6 +2,7 @@
   {
     "title": "Software Engineering Co-op",
     "company": "ASML",
+    "companyURL": "https://www.asml.com/",
     "location": "San Diego, CA",
     "startDate": "June",
     "endDate": "Dec 2021",
@@ -11,6 +12,7 @@
   {
     "title": "Software Development Intern",
     "company": "Dexcom",
+    "companyURL": "https://www.dexcom.com/",
     "location": "San Diego, CA",
     "startDate": "June",
     "endDate": "Sept 2018",
@@ -28,6 +30,7 @@
   {
     "title": "Software Engineering Intern",
     "company": "PlayStation",
+    "companyURL": "https://www.playstation.com/",
     "location": "San Diego, CA",
     "startDate": "June",
     "endDate": "Sept 2017",

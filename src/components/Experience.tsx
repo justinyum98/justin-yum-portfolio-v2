@@ -1,6 +1,9 @@
+import Link from 'next/link';
+
 export type ExperienceProps = {
   title: string;
   company: string;
+  companyURL: string;
   location: string;
   startDate: string;
   endDate: string;
@@ -10,7 +13,10 @@ export type ExperienceProps = {
 
 export default function Experience(props: ExperienceProps) {
   return (
-    <div className="w-full flex flex-col md:flex-row my-2 transition ease-in hover:bg-gray-200 dark:hover:bg-gray-700 p-5 rounded">
+    <Link
+      href={props.companyURL}
+      className="w-full flex flex-col md:flex-row my-2 transition ease-in hover:cursor-pointer hover:-translate-y-1 hover:bg-gray-200 dark:hover:bg-gray-700 p-5 rounded"
+    >
       <div className="md:w-1/4">
         <p className="uppercase dark:text-gray-200 font-medium">
           {props.startDate} - {props.endDate}
@@ -32,6 +38,6 @@ export default function Experience(props: ExperienceProps) {
           ))}
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
