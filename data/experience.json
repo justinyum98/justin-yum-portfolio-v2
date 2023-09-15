@@ -24,7 +24,8 @@
       "HTML",
       "CSS",
       "REST API",
-      "Linux"
+      "Linux",
+      "Git"
     ]
   },
   {
@@ -35,6 +36,14 @@
     "startDate": "June",
     "endDate": "Sept 2017",
     "description": "Implemented feature changes in Java and maintained test suites (unit, integration, end-to-end) for customer-facing authentication service serving 70 million monthly active users. Collaborated closely in cross-functional team to deliver new feature that was used by over 100,000 end users during its release month. Reduced team's implementation timeline by 40% by updating outdated documentation, enabling the team to work more efficiently and effectively in delivering project outcomes on-time.",
-    "skills": ["Java", "JUnit", "Spring Boot", "REST API", "Linux", "Git"]
+    "skills": [
+      "Java",
+      "JUnit",
+      "Spring Boot",
+      "Jenkins",
+      "REST API",
+      "Linux",
+      "Git"
+    ]
   }
 ]
