@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import ExperienceContainer from '@/components/ExperienceContainer';
+import ProjectsContainer from '@/components/ProjectContainer';
 
 export default function Home() {
   return (
@@ -141,6 +142,15 @@ export default function Home() {
         <h2 className="text-3xl font-semibold self-start">experience. 💼</h2>
         <br />
         <ExperienceContainer />
+      </section>
+
+      <section
+        id="home-projects"
+        className="w-full max-w-4xl flex flex-col my-5"
+      >
+        <h2 className="text-3xl font-semibold self-start">projects.💡</h2>
+        <br />
+        <ProjectsContainer />
       </section>
     </main>
   );

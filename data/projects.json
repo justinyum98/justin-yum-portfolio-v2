@@ -1,0 +1,34 @@
+[
+  {
+    "name": "My Music List",
+    "projectURL": "https://my-music-list-web.vercel.app/",
+    "githubURL": "https://github.com/justinyum98/my-music-list-web",
+    "imageSrc": "/projects/my-music-list-thumbnail.png",
+    "description": "Currently designing and developing a website for creating and sharing your personalized list of favorite songs, albums, and artists.",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "TailwindCSS",
+      "Next.js",
+      "PrismaORM",
+      "MongoDB",
+      "Redis"
+    ]
+  },
+  {
+    "name": "Website Portfolio v1",
+    "projectURL": "https://www.justinyum.me/",
+    "githubURL": "https://github.com/justinyum98/justin-yum-portfolio",
+    "imageSrc": "/projects/website-portfolio-v1-thumbnail.png",
+    "description": "The first iteration of my website portfolio.",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "MUI",
+      "Next.js",
+      "AWS Amplify"
+    ]
+  }
+]
