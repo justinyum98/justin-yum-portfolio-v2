@@ -144,6 +144,17 @@ export default function Home() {
         <br />
         <ProjectsContainer />
       </Section>
+
+      <Section id="home-bible-verse">
+        <blockquote className="md:mx-12 p-5 dark:bg-gray-900 dark:text-gray-200 rounded italic">
+          And whatever you do, in word or deed, do everything in the name of the
+          Lord Jesus, giving thanks to God the Father through him.
+        </blockquote>
+        <br />
+        <span className="font-bold text-end md:mr-10 italic">
+          - Colossians 3:17 NIV
+        </span>
+      </Section>
     </main>
   );
 }
