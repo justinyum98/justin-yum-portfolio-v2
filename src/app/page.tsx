@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import ExperienceContainer from '@/components/ExperienceContainer';
 import ProjectsContainer from '@/components/ProjectContainer';
+import Section from '@/components/Section';
 
 export default function Home() {
   return (
@@ -74,10 +75,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        id="home-about-me"
-        className="w-full max-w-4xl flex flex-col my-5"
-      >
+      <Section id="home-about-me">
         <h2 className="text-3xl font-semibold self-start">about me. 🧑🏻‍💻</h2>
         <br />
         <p className="dark:text-gray-200">
@@ -133,25 +131,19 @@ export default function Home() {
           In my free time, I&apos;m either playing guitar 🎸, producing beats on
           Ableton Live 🎵 or playing board games 🎲.
         </p>
-      </section>
+      </Section>
 
-      <section
-        id="home-experience"
-        className="w-full max-w-4xl flex flex-col my-5"
-      >
+      <Section id="home-experience">
         <h2 className="text-3xl font-semibold self-start">experience. 💼</h2>
         <br />
         <ExperienceContainer />
-      </section>
+      </Section>
 
-      <section
-        id="home-projects"
-        className="w-full max-w-4xl flex flex-col my-5"
-      >
+      <Section id="home-projects">
         <h2 className="text-3xl font-semibold self-start">projects.💡</h2>
         <br />
         <ProjectsContainer />
-      </section>
+      </Section>
     </main>
   );
 }
