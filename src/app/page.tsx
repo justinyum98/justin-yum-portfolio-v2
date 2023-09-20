@@ -80,7 +80,7 @@ export default function Home() {
         <br />
         <p className="dark:text-gray-200">
           Back in 2014, I was first exposed to coding when I took AP Computer
-          Science in my sophomore year at high school. Science. But, for me, my
+          Science in my sophomore year at high school. But, for me, my
           coding journey truly started when I self-taught myself web development
           and created my{' '}
           <Link
