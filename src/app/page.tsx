@@ -80,8 +80,8 @@ export default function Home() {
         <br />
         <p className="dark:text-gray-200">
           Back in 2014, I was first exposed to coding when I took AP Computer
-          Science in my sophomore year at high school. But, for me, my
-          coding journey truly started when I self-taught myself web development
+          Science in my sophomore year at high school. But my
+          coding journey truly started when I taught myself web development
           and created my{' '}
           <Link
             href="https://justinyum.netlify.app/"
@@ -113,9 +113,9 @@ export default function Home() {
           >
             ASML
           </Link>
-          . In these internships, I{' '}
+          . During these internships, I{' '}
           <span className="italic">
-            maintained code for a RESTful API service
+            maintained code for a RESTful API
           </span>
           ,{' '}
           <span className="italic">
@@ -123,7 +123,7 @@ export default function Home() {
           </span>
           , and{' '}
           <span className="italic">
-            automated a data pipeline to streamline analysis.
+            automated a data pipeline to streamline analysis
           </span>
           .
           <br />
