@@ -1,5 +1,23 @@
 [
   {
+    "title": "Software Engineer Associate II",
+    "company": "BAE Systems",
+    "companyURL": "https://www.baesystems.com/",
+    "location": "San Diego, CA",
+    "startDate": "Jan",
+    "endDate": "Current",
+    "description": "",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "Spring Boot",
+      "Windows",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
     "title": "Software Engineering Co-op",
     "company": "ASML",
     "companyURL": "https://www.asml.com/",

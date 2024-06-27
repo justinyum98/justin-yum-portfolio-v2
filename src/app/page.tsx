@@ -22,7 +22,13 @@ export default function Home() {
           </h1>
           <p className="md:text-xl text-lg">nice to meet you 👋</p>
           <p className="dark:text-gray-300 my-8 font-semibold">
-            💻 Software Engineer
+            💻 Software Engineer Associate II at{' '}
+            <Link
+              href="https://www.baesystems.com/"
+              className="hover:underline"
+            >
+              BAE Systems
+            </Link>
             <br />
             📍 San Diego, CA
             <br />
@@ -34,8 +40,6 @@ export default function Home() {
               CSUSM
             </Link>{' '}
             in May 2023, B.S. in Computer Science
-            <br />
-            🔎 Actively searching for a full-time SWE position
           </p>
           <div
             id="home-introduction-links"
@@ -80,9 +84,8 @@ export default function Home() {
         <br />
         <p className="dark:text-gray-200">
           Back in 2014, I was first exposed to coding when I took AP Computer
-          Science in my sophomore year at high school. But my
-          coding journey truly started when I taught myself web development
-          and created my{' '}
+          Science in my sophomore year at high school. But my coding journey
+          truly started when I taught myself web development and created my{' '}
           <Link
             href="https://justinyum.netlify.app/"
             className="font-semibold hover:underline"
@@ -114,10 +117,7 @@ export default function Home() {
             ASML
           </Link>
           . During these internships, I{' '}
-          <span className="italic">
-            maintained code for a RESTful API
-          </span>
-          ,{' '}
+          <span className="italic">maintained code for a RESTful API</span>,{' '}
           <span className="italic">
             designed & developed the frontend for an OAuth admin client
           </span>
@@ -125,6 +125,17 @@ export default function Home() {
           <span className="italic">
             automated a data pipeline to streamline analysis
           </span>
+          .
+          <br />
+          <br />
+          Currently, I am working full-time as a entry-level software engineer
+          at{' '}
+          <Link
+            href="https://www.baesystems.com/"
+            className="font-semibold hover:underline"
+          >
+            BAE Systems
+          </Link>
           .
           <br />
           <br />
